@@ -1,0 +1,35 @@
+<footer class="footer">
+  <small>
+     <a href="http://www.railstutorial.org/">Web made by </a> <a href="http://www.michaelhartl.com/">Uday Gupta</a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "About",    about_path%></li>
+      <li><%= link_to "Contact", contact_path %></li>
+      <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">News</button>
+      </li>
+    </ul>
+  </nav>
+</footer>
+
+<!-- Large modal -->
+
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      Welcome to my blog for more information click on <a href="https://google.com">blog news</a>
+    </div>
+  </div>
+</div>
+
+<!-- Small modal -->
+
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
