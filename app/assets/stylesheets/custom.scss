@@ -37,7 +37,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #5F9EA0;
 }
 
 p {
@@ -64,7 +64,7 @@ p {
     position: relative;
     padding:50!important;
     margin-top:70px !important;
-    background: #F5F5DC;
+    background: #5F9EA0;
     margin-top: 23px;}
 
 .rails { 
@@ -139,6 +139,19 @@ input {
   @extend .has-error;
   .form-control {
     color: $state-danger-text;
+  }
+}
+#session_remember_me {
+  width: auto;
+  margin-left: 3;
+}
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
   }
 }
 
